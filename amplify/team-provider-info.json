@@ -19,6 +19,12 @@
             },
             "auth": {
                 "beautifly9b42a059": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dty47k9p5zrr5",
+                    "type": "cicd"
+                }
             }
         }
     }
