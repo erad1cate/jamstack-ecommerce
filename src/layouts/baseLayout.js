@@ -19,7 +19,7 @@ toast.configure( {
   }
 })
 
-const logo = require('../images/logo.png');
+const logo = require('../images/beau_logo_200_63.png');
 
 class Layout extends React.Component {
   render() {
@@ -50,9 +50,6 @@ class Layout extends React.Component {
                     mobile:px-10 desktop:px-0 px-4 pt-10 pb-6
                     flex flex-col
                     sm:flex-row">
-                      <Link to="/">
-                        <img className="mb-4 w-24 mw-24 sm:w-20 sm:mr-16" alt="Logo" src={logo} />
-                      </Link>
                       <div className="flex flex-wrap">
                         {
                           links.map((l, i) => (
@@ -82,11 +79,8 @@ class Layout extends React.Component {
                 </div>
                 <footer className="flex justify-center">
                   <div className="flex w-fw px-8 desktop:px-0 border-solid border-t border-gray-300 items-center">
-                    <span className="block text-gray-700 pt-4 pb-8 mt-2 text-xs">Copyright © 2020 JAMstack Ecommerce. All rights reserved.</span>
+                    <span className="block text-gray-700 pt-4 pb-8 mt-2 text-xs">Copyright © 2020 BeautiflySG</span>
                     <div className="flex flex-1 justify-end">
-                      <Link to="/admin">
-                        <p className="pt-4 text-xs">Admins</p>
-                      </Link>
                     </div>
                   </div>
                 </footer>

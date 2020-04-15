@@ -1,0 +1,16 @@
+{
+    "trigger": true,
+    "modules": [
+        "add-to-group"
+    ],
+    "parentResource": "beautifly9b42a059",
+    "functionName": "beautifly9b42a059PostConfirmation",
+    "resourceName": "beautifly9b42a059PostConfirmation",
+    "parentStack": "auth",
+    "triggerEnvs": [],
+    "triggerDir": "C:\\Users\\Abdillah\\AppData\\Roaming\\npm\\node_modules\\@aws-amplify\\cli\\node_modules\\amplify-category-auth\\provider-utils\\awscloudformation\\utils/../triggers/PostConfirmation",
+    "triggerTemplate": "PostConfirmation.json.ejs",
+    "roleName": "beautifly9b42a059PostConfirmation",
+    "skipEdit": true,
+    "GROUP": "Admin"
+}

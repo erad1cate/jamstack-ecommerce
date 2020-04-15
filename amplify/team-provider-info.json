@@ -1,0 +1,25 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-beautifly-dev-113518-authRole",
+            "UnauthRoleArn": "arn:aws:iam::799906580552:role/amplify-beautifly-dev-113518-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::799906580552:role/amplify-beautifly-dev-113518-authRole",
+            "Region": "ap-southeast-1",
+            "DeploymentBucketName": "amplify-beautifly-dev-113518-deployment",
+            "UnauthRoleName": "amplify-beautifly-dev-113518-unauthRole",
+            "StackName": "amplify-beautifly-dev-113518",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:799906580552:stack/amplify-beautifly-dev-113518/19e65340-7eca-11ea-af00-06ab84d815ba",
+            "AmplifyAppId": "dty47k9p5zrr5"
+        },
+        "categories": {
+            "function": {
+                "beautifly9b42a059PostConfirmation": {
+                    "GROUP": "Admin"
+                }
+            },
+            "auth": {
+                "beautifly9b42a059": {}
+            }
+        }
+    }
+}
