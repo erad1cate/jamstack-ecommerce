@@ -22,9 +22,13 @@ toast.configure( {
 const logo = require('../images/icons_80.png');
 
 class Layout extends React.Component {
+  
+  componentDidMount() {
+    this.fetchInventory()
+  }
+  
   render() {
     const { children } = this.props
-
     return (
       <ContextProviderComponent>
         <SiteContext.Consumer>
